@@ -1,5 +1,6 @@
 # 🤖 Chatbot Practice Project
 
+![Chatbot Example] (ChatBot_Example.png)
 This is a simple chatbot built using **Python**, **Flask**, and **ChatterBot**. It supports Engish and runs through a clean web interface.
 
 ---
