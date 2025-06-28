@@ -1,17 +1,52 @@
-# I have practice how to make a chatbot.
+# 🤖 Chatbot Practice Project
 
-# For running this chatbot you should install the following things
-1. install python 
-2. check the python is properly install or not
-3. if successfully the python is installed then go to cmd (for window)
-4. pip3 install flask
-5. pip3 install chatterbot
-6. pip3 install chatterbot-corpus
-7. pip3 install pyyaml
-8. python -m spacy download en
-9. pip3 install spacy
-10. pip3 install pint
-11. pip3 install jypter
-12. pip3 install notebook
+This is a simple chatbot built using **Python**, **Flask**, and **ChatterBot**. It supports both English and Nepali conversations and runs through a clean web interface.
 
-After all things properly installed run the program as: "python main.py"
+---
+
+## ✅ Requirements
+
+Before running the chatbot, ensure the following:
+
+1. Latest python or python 3.7 or 3.10 should be installed 
+2. Terminal or CMD access
+
+Check Python installation:
+```bash
+python --version
+pip --version
+
+📦 Installation Steps
+Install all necessary packages by running in cmd:
+
+pip install flask
+pip install chatterbot
+pip install git+https://github.com/gunthercox/chatterbot-corpus.git
+pip install spacy
+pip install pyyaml
+pip install pint
+pip install jupyter
+pip install notebook
+python -m spacy download en
+
+# If chatterbot fails from PyPI, install directly from GitHub:
+
+pip install git+https://github.com/gunthercox/ChatterBot.git
+
+🚀 How to Run the Project
+1. Train the Chatbot (first time only)
+python train.py
+
+2. Start the Web Server
+python main.py
+
+3. Open in Browser
+Go to:
+http://127.0.0.1:5000/
+
+
+ℹ️ Notes
+--ChatterBot is compatible with Python 3.7–3.10
+--Trained data is stored locally (typically in db.sqlite3)
+--No need to retrain every time — only run train.py again when you change the training data
+
