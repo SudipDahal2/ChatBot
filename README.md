@@ -30,10 +30,9 @@ pip install notebook
 python -m spacy download en
 
 # If chatterbot fails from PyPI, install directly from GitHub:
-
 pip install git+https://github.com/gunthercox/ChatterBot.git
 
-🚀 How to Run the Project
+## 🚀 How to Run the Project
 1. Train the Chatbot (first time only)
 python train.py
 
