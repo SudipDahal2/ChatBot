@@ -1,6 +1,6 @@
 # 🤖 Chatbot Practice Project
 
-This is a simple chatbot built using **Python**, **Flask**, and **ChatterBot**. It supports both English and Nepali conversations and runs through a clean web interface.
+This is a simple chatbot built using **Python**, **Flask**, and **ChatterBot**. It supports Engish and runs through a clean web interface.
 
 ---
 
